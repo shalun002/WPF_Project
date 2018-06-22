@@ -1,0 +1,28 @@
+﻿<Page x:Class="ProjectWPF.Pages.CarList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjectWPF.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="CarList">
+
+    <Grid>
+        <ListView>
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="Гаражный номер" DisplayMemberBinding="{Binding Path= 123123 }"></GridViewColumn>
+                        <GridViewColumn Header="Производитель"></GridViewColumn>
+                        <GridViewColumn Header="Модель"></GridViewColumn>
+                        <GridViewColumn Header="Год выпуска"></GridViewColumn>
+                        <GridViewColumn Header="Серийный номер"></GridViewColumn>
+                        <GridViewColumn Header="Последние мото-часы"></GridViewColumn>
+                        <GridViewColumn Header="Общая наработка машины"></GridViewColumn>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>
