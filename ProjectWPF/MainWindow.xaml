@@ -181,7 +181,8 @@
                             Height="30" 
                             Margin="10,10,724,10"
                             Background="Green"
-                            Foreground="White"/>
+                            Foreground="White"
+                            Click="bbn_AddCar"/>
                 </Border>
             </StackPanel>
         </Grid>

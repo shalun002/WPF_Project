@@ -154,5 +154,11 @@
   <ItemGroup>
     <Resource Include="IMG\Access.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarDB.DAL\CarDB.DAL.csproj">
+      <Project>{be90b54d-8ff7-4528-9e4f-c14ce87d5c06}</Project>
+      <Name>CarDB.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
